@@ -1,3 +1,21 @@
+:root {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f5f5f5;
+  --text-primary: #333333;
+  --text-secondary: #666666;
+  --accent-color: #2196F3;
+  --accent-color-hover: #1976D2;
+}
+
+[data-theme="dark"] {
+  --bg-primary: #1a1a1a;
+  --bg-secondary: #2d2d2d;
+  --text-primary: #ffffff;
+  --text-secondary: #cccccc;
+  --accent-color: #64B5F6;
+  --accent-color-hover: #42A5F5;
+}
+
 html {
   font-family: Roboto, sans-serif;
   --primary-color: #2f80ed;
@@ -310,5 +328,35 @@ input:checked + .slider:before {
 
 .mission-content li {
   margin-bottom: 0.5em;
+}
+
+.theme-switch {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.download-cv {
+  margin-left: 20px;
+}
+
+.download-button {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: var(--accent-color);
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+  background-color: var(--accent-color-hover);
+}
+
+@media (max-width: 768px) {
+  .download-cv {
+    margin: 10px 0;
+  }
 }
 /*# sourceMappingURL=main.css.map */
