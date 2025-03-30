@@ -4,82 +4,108 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Павлинский Янис Дмитриевич - CV</title>
+  <title>Yanis Pavlinsky - CV</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
   <div class="cv">
     <section>
-      <h1>Павлинский Янис Дмитриевич</h1>
-      <h2>Financial Manager</h2>
+      <div class="language-switch-wrapper">
+        <label class="language-switch">
+          <input type="checkbox" class="language-switch__checkbox"/>
+          <div class="slider round"></div>
+        </label>
+        <span class="language-switch__label">EN</span>
+      </div>
+
+      <h1 class="ru">Павлинский Янис Дмитриевич</h1>
+      <h1 class="en" style="display: none;">Yanis Pavlinsky</h1>
+      <h2 class="ru">Финансовый менеджер</h2>
+      <h2 class="en" style="display: none;">Financial Manager</h2>
 
       <div class="theme-switch-wrapper">
         <label class="theme-switch">
           <input type="checkbox" class="theme-switch__checkbox"/>
           <div class="slider round"></div>
         </label>
-        <span class="theme-switch__label">Dark Mode</span>
+        <span class="theme-switch__label ru">Темная тема</span>
+        <span class="theme-switch__label en" style="display: none;">Dark Mode</span>
       </div>
 
       <div class="contacts">
         <div class="contact">
-          <div class="contact__type">
-            Email
-          </div>
+          <div class="contact__type ru">Email</div>
+          <div class="contact__type en" style="display: none;">Email</div>
           <div class="contact__value">
             <a href="mailto:bendr3656@gmail.com">bendr3656@gmail.com</a>
           </div>
         </div>
         <div class="contact">
-          <div class="contact__type">
-            Phone
-          </div>
+          <div class="contact__type ru">Телефон</div>
+          <div class="contact__type en" style="display: none;">Phone</div>
           <div class="contact__value">
             <a href="tel:+79663401244">+7 (966) 340-12-44</a>
           </div>
         </div>
         <div class="contact">
-          <div class="contact__type">
-            Location
-          </div>
+          <div class="contact__type ru">Местоположение</div>
+          <div class="contact__type en" style="display: none;">Location</div>
           <div class="contact__value">
             Moscow, Russia
           </div>
         </div>
       </div>
       <div class="description">
-        Молодой специалист с высшим неполным образованием в области финансового менеджмента.
-        Имею опыт работы в различных сферах, включая рекламу и организацию досуга.
-        Быстро учусь и готов к развитию в профессиональной сфере.
+        <div class="ru">
+          Молодой специалист с высшим неполным образованием в области финансового менеджмента.
+          Имею опыт работы в различных сферах, включая рекламу и организацию досуга.
+          Быстро учусь и готов к развитию в профессиональной сфере.
+        </div>
+        <div class="en" style="display: none;">
+          Young specialist with incomplete higher education in financial management.
+          Have experience in various fields, including advertising and leisure organization.
+          Quick learner and ready for professional development.
+        </div>
       </div>
     </section>
 
     <section>
-      <h3>Personal Information</h3>
+      <h3 class="ru">Личная информация</h3>
+      <h3 class="en" style="display: none;">Personal Information</h3>
       <div class="experience__details">
         <ul>
-          <li>Гражданство: Россия</li>
-          <li>Город проживания: г. Москва</li>
-          <li>Образование: Высшее неполное</li>
-          <li>Дата рождения: 17 декабря 2002 (20 лет)</li>
-          <li>Пол: Мужской</li>
-          <li>Семейное положение: Холост</li>
+          <li class="ru">Гражданство: Россия</li>
+          <li class="en" style="display: none;">Citizenship: Russia</li>
+          <li class="ru">Город проживания: г. Москва</li>
+          <li class="en" style="display: none;">Location: Moscow</li>
+          <li class="ru">Образование: Высшее неполное</li>
+          <li class="en" style="display: none;">Education: Incomplete Higher</li>
+          <li class="ru">Дата рождения: 17 декабря 2002 (20 лет)</li>
+          <li class="en" style="display: none;">Date of Birth: December 17, 2002 (20 years)</li>
+          <li class="ru">Пол: Мужской</li>
+          <li class="en" style="display: none;">Gender: Male</li>
+          <li class="ru">Семейное положение: Холост</li>
+          <li class="en" style="display: none;">Marital Status: Single</li>
         </ul>
       </div>
     </section>
 
     <section>
-      <h3>Experience</h3>
+      <h3 class="ru">Опыт работы</h3>
+      <h3 class="en" style="display: none;">Experience</h3>
 
       <div class="experience">
         <div class="experience__date">November 2021 - December 2021</div>
         <div class="experience__description">
-          <div class="experience__name">Сборщик Сбермаркет</div>
-          <div class="experience__company">Самозанятый</div>
+          <div class="experience__name ru">Сборщик Сбермаркет</div>
+          <div class="experience__name en" style="display: none;">Sbermarket Order Picker</div>
+          <div class="experience__company ru">Самозанятый</div>
+          <div class="experience__company en" style="display: none;">Self-employed</div>
           <div class="experience__details">
             <ul>
-              <li>Сборка заказов</li>
+              <li class="ru">Сборка заказов</li>
+              <li class="en" style="display: none;">Order picking</li>
             </ul>
           </div>
         </div>
@@ -88,11 +114,13 @@
       <div class="experience">
         <div class="experience__date">December 2020 - April 2021</div>
         <div class="experience__description">
-          <div class="experience__name">Менеджер по Рекламе</div>
+          <div class="experience__name ru">Менеджер по Рекламе</div>
+          <div class="experience__name en" style="display: none;">Advertising Manager</div>
           <div class="experience__company">ООО "Сибирский Медведь"</div>
           <div class="experience__details">
             <ul>
-              <li>Привлечение клиентов</li>
+              <li class="ru">Привлечение клиентов</li>
+              <li class="en" style="display: none;">Client acquisition</li>
             </ul>
           </div>
         </div>
@@ -101,11 +129,13 @@
       <div class="experience">
         <div class="experience__date">June 2017 - July 2017</div>
         <div class="experience__description">
-          <div class="experience__name">Подсобный Рабочий</div>
+          <div class="experience__name ru">Подсобный Рабочий</div>
+          <div class="experience__name en" style="display: none;">General Laborer</div>
           <div class="experience__company">АО "НЦРЗ"</div>
           <div class="experience__details">
             <ul>
-              <li>Уборка территории</li>
+              <li class="ru">Уборка территории</li>
+              <li class="en" style="display: none;">Territory cleaning</li>
             </ul>
           </div>
         </div>
@@ -114,11 +144,14 @@
       <div class="experience">
         <div class="experience__date">June 2016 - July 2016</div>
         <div class="experience__description">
-          <div class="experience__name">Помощник Инструктора по физической подготовке</div>
-          <div class="experience__company">Молодежный Центр</div>
+          <div class="experience__name ru">Помощник Инструктора по физической подготовке</div>
+          <div class="experience__name en" style="display: none;">Physical Training Instructor Assistant</div>
+          <div class="experience__company ru">Молодежный Центр</div>
+          <div class="experience__company en" style="display: none;">Youth Center</div>
           <div class="experience__details">
             <ul>
-              <li>Организация досуга подростков</li>
+              <li class="ru">Организация досуга подростков</li>
+              <li class="en" style="display: none;">Teenager leisure organization</li>
             </ul>
           </div>
         </div>
@@ -126,15 +159,18 @@
     </section>
 
     <section>
-      <h3>Education</h3>
+      <h3 class="ru">Образование</h3>
+      <h3 class="en" style="display: none;">Education</h3>
       <div class="experience">
         <div class="experience__date">2020 - 2024</div>
         <div class="experience__description">
-          <div class="experience__name">Финансовый менеджер</div>
+          <div class="experience__name ru">Финансовый менеджер</div>
+          <div class="experience__name en" style="display: none;">Financial Manager</div>
           <div class="experience__company">МИСиС, Экономический факультет</div>
           <div class="experience__details">
             <ul>
-              <li>Высшее неполное образование</li>
+              <li class="ru">Высшее неполное образование</li>
+              <li class="en" style="display: none;">Incomplete Higher Education</li>
             </ul>
           </div>
         </div>
@@ -142,15 +178,18 @@
     </section>
 
     <section>
-      <h3>Additional Education</h3>
+      <h3 class="ru">Дополнительное образование</h3>
+      <h3 class="en" style="display: none;">Additional Education</h3>
       <div class="experience">
         <div class="experience__date">2022</div>
         <div class="experience__description">
-          <div class="experience__name">Python начальный уровень</div>
+          <div class="experience__name ru">Python начальный уровень</div>
+          <div class="experience__name en" style="display: none;">Python Basic Level</div>
           <div class="experience__company">Stepik</div>
           <div class="experience__details">
             <ul>
-              <li>Период обучения: 2 месяца</li>
+              <li class="ru">Период обучения: 2 месяца</li>
+              <li class="en" style="display: none;">Training period: 2 months</li>
             </ul>
           </div>
         </div>
@@ -158,37 +197,52 @@
     </section>
 
     <section>
-      <h3>Computer Skills</h3>
+      <h3 class="ru">Компьютерные навыки</h3>
+      <h3 class="en" style="display: none;">Computer Skills</h3>
       <div class="experience__details">
         <ul>
-          <li>Печать, сканирование, копирование документов</li>
-          <li>Интернет</li>
-          <li>Электронная почта</li>
-          <li>Microsoft Word</li>
-          <li>Microsoft Excel</li>
-          <li>Chat GPT official</li>
-          <li>Adobe Programs</li>
+          <li class="ru">Печать, сканирование, копирование документов</li>
+          <li class="en" style="display: none;">Document printing, scanning, copying</li>
+          <li class="ru">Интернет</li>
+          <li class="en" style="display: none;">Internet</li>
+          <li class="ru">Электронная почта</li>
+          <li class="en" style="display: none;">Email</li>
+          <li class="ru">Microsoft Word</li>
+          <li class="en" style="display: none;">Microsoft Word</li>
+          <li class="ru">Microsoft Excel</li>
+          <li class="en" style="display: none;">Microsoft Excel</li>
+          <li class="ru">Chat GPT official</li>
+          <li class="en" style="display: none;">Chat GPT official</li>
+          <li class="ru">Adobe Programs</li>
+          <li class="en" style="display: none;">Adobe Programs</li>
         </ul>
       </div>
     </section>
 
     <section>
-      <h3>Languages</h3>
+      <h3 class="ru">Языки</h3>
+      <h3 class="en" style="display: none;">Languages</h3>
       <div class="experience__details">
         <ul>
-          <li>Английский B2</li>
+          <li class="ru">Английский B2</li>
+          <li class="en" style="display: none;">English B2</li>
         </ul>
       </div>
     </section>
 
     <section>
-      <h3>Additional Information</h3>
+      <h3 class="ru">Дополнительная информация</h3>
+      <h3 class="en" style="display: none;">Additional Information</h3>
       <div class="experience__details">
         <ul>
-          <li>Медицинская книжка: Есть</li>
-          <li>Занятия в свободное время: Прогулки, чтение, письмо, разбирательство в темах</li>
-          <li>Личные качества: Быстро учусь, Широкомыслящий, Энергичный</li>
-          <li>О себе: Готов быстро усвоить то, что представляет интерес</li>
+          <li class="ru">Медицинская книжка: Есть</li>
+          <li class="en" style="display: none;">Medical Book: Available</li>
+          <li class="ru">Занятия в свободное время: Прогулки, чтение, письмо, разбирательство в темах</li>
+          <li class="en" style="display: none;">Hobbies: Walking, reading, writing, exploring topics</li>
+          <li class="ru">Личные качества: Быстро учусь, Широкомыслящий, Энергичный</li>
+          <li class="en" style="display: none;">Personal qualities: Quick learner, Open-minded, Energetic</li>
+          <li class="ru">О себе: Готов быстро усвоить то, что представляет интерес</li>
+          <li class="en" style="display: none;">About me: Ready to quickly learn what interests me</li>
         </ul>
       </div>
     </section>

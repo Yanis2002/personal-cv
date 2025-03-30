@@ -15,3 +15,18 @@ function transition() {
     document.documentElement.classList.remove('transition');
   }, 250)
 }
+
+// Language switcher
+const languageSwitch = document.querySelector('.language-switch__checkbox');
+const ruElements = document.querySelectorAll('.ru');
+const enElements = document.querySelectorAll('.en');
+
+// Language switcher functionality
+languageSwitch.addEventListener('change', () => {
+  ruElements.forEach(element => {
+    element.style.display = languageSwitch.checked ? 'none' : 'block';
+  });
+  enElements.forEach(element => {
+    element.style.display = languageSwitch.checked ? 'block' : 'none';
+  });
+});
