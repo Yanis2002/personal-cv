@@ -284,4 +284,31 @@ input:checked + .slider:before {
     height: 150px;
   }
 }
+
+.mission-statement {
+  margin: 2em 0;
+  padding: 1.5em;
+  background-color: var(--bg-secondary);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.mission-statement h3 {
+  color: var(--text-primary);
+  margin-bottom: 1em;
+}
+
+.mission-content {
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.mission-content ul {
+  margin: 1em 0;
+  padding-left: 1.5em;
+}
+
+.mission-content li {
+  margin-bottom: 0.5em;
+}
 /*# sourceMappingURL=main.css.map */
